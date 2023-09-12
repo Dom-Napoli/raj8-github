@@ -35,4 +35,23 @@ main {
 }
 
 
-@media(min-width: 600px)
+@media(min-width: 600px) {
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header, footer {
+        width: 100vw;
+    }
+
+    main {
+        width: 60vw;
+    }
+
+    aside, nav {
+        width: 15vw;
+    }
+
+}
