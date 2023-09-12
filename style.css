@@ -1,6 +1,6 @@
 
 * {
-    outline: 1.5px solid #1c1cf2;
+    outline: 2.3px solid #000026;
 }
 
 body {
@@ -19,13 +19,20 @@ body {
 }
 
 header, footer {
-    background: #001370
+    background: #001370;
+    flex-grow: 1;
 }
 
 nav, aside {
     background: #2135b9;
+    flex-grow: 2;
 }
 
 main {
     background: #4266d2;
+    flex-grow: 5;
+    min-height: 65vh;
 }
+
+
+@media(min-width: 600px)
