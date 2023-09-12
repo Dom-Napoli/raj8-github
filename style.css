@@ -1,0 +1,31 @@
+
+* {
+    outline: 1.5px solid #1c1cf2;
+}
+
+body {
+    background: #ebe9e9;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.container {
+    background: #043174;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header, footer {
+    background: #001370
+}
+
+nav, aside {
+    background: #2135b9;
+}
+
+main {
+    background: #4266d2;
+}
