@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #ebe9e9;
+    background: #ebe9e9; /* this is to set the background color*/
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
